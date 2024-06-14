@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prudhvi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://img.freepik.com/free-photo/blue-toned-pack-paper-sheets-with-copy-space_23-2148320442.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .about, .projects, .contact {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 50px 0;
+            margin-bottom: 20px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p, label, input, textarea, button {
+            color: #fff;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #ffffff;
+        }
+        .project-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px 0;
+        }
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I'm a web developer passionate about creating interactive and user-friendly websites.</p>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Prudhvi, a third-year B.Tech student majoring in CSE at KLU. With a passion for technology and innovation, I am dedicated to honing my skills in web development and software engineering. Over the past few years, I have gained practical experience through various projects and internships, allowing me to develop a solid foundation in HTML, CSS, JavaScript, and other modern web technologies.
+
+                <br /><br />I am particularly interested in creating user-friendly and responsive web applications that solve real-world problems. My coursework and hands-on projects have equipped me with a strong understanding of the software development lifecycle, from initial design to deployment. I thrive in collaborative environments and enjoy working on teams to bring creative solutions to life.
+                
+                <br /><br />When I'm not coding, you can find me exploring new technologies, participating in hackathons, or contributing to open-source projects. I am always eager to learn and take on new challenges that push the boundaries of my knowledge and skills.
+                
+                <br /><br />Feel free to explore my portfolio to see some of the projects I have worked on and learn more about my journey in the tech world. If you'd like to get in touch, don't hesitate to reach out through the contact section below.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Pet Adoption</h3>
+                    <p>This project is a full-stack web application designed to help users find pets available for adoption. It includes features such as searching for pets by type, breed, and location. The application is built using Python for the backend with Flask, and HTML, CSS, and JavaScript for the frontend. It integrates with a pet adoption API to provide up-to-date listings and includes a user authentication system for added functionality.</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxFVvB_vK1MIOzNKCkyoUJfb4TBejbthTPQ&s" alt="Pet Adoption Project">
+                </div>
+                <div class="project">
+                    <h3>Task Management System</h3>
+                    <p>A Task Management System is a software tool designed to help individuals or teams organize, track, and manage tasks and projects efficiently. These systems are crucial for enhancing productivity, ensuring accountability, and improving project outcomes. Here’s a brief overview of key features and benefits of a task management system:Task Creation and Assignment, Task Organization, Prioritization and Deadlines,Collaboration</p>
+                    <img width="300" height="200" src="https://cdn5.vectorstock.com/i/1000x1000/16/29/time-management-concept-flat-composition-poster-vector-13591629.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--- <section id="contact" class="contact">
+        <div class="container">
+            <h2>My Ontact</h2>
+            <p>You can reach me at <a aria-setsize="28" href="mailto:2200033243cser@gmail.com">2200033243cser@gmail.com</a> or through the form below.</p>
+        </div>
+    </section>-->
+
+    <footer>
+        <div class="container">
+            <h2>My Contact</h2>
+
+            <p>You can reach me at <a aria-setsize="28" href="mailto:2200033243cser@gmail.com">2200033243cser@gmail.com</a> or through the form below.</p>
+
+            <p>&copy; 2024 Prudhvi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/u-prudhvi-9a600528b/">LinkedIn</a>
+                <a href="https://github.com/Weeekendd">GitHub</a>
+                <!-- Add more social links as needed -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
